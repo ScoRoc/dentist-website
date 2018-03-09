@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+nav {
+  height: 6vw;
+  width: 100%;
+  background: rgba(235, 85, 10, .5);
+  /* padding: 2vw; */
+}
+
+nav a {
+  height: 6vw;
+  width: 6vw;
+  margin: 3vw 1.5vw;
+  text-decoration: none;
+  color: white;
+}
+
+nav a:hover {
+  background-color: rgba(215, 75, 10, .5);
+  border-bottom: 2px solid white;
+}
